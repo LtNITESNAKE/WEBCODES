@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS OVERFLOW</title>
+    <style>
+        html{background-color:grey;}
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .box{
+            width: 40vw;
+            height:40vh;
+            border:2px solid black;
+            /* overflow:scroll; */
+            /* overflow:auto; */
+            /* overflow-x:hidden; */
+            /* overflow-y:hidden; */
+            /* overflow:ellipsis; */
+            /* overflow:hidden; */
+            /* overflow:clip; */
+            /* white-space:nowrap; */
+            /* text-overflow:ellipsis; */
+            /* overflow: auto hidden; */
+            overflow:hidden auto;
+            /* overflow: x    y; */
+            margin: 0px;
+            padding:0px;
+
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, voluptatem odio autem beatae molestiae voluptates illo sint aliquid consectetur sequi laboriosam. Magnam animi, at aut nostrum sit nemo, a, nihil ad molestias dolorum similique mollitia magni quae! Temporibus nam ullam, iusto pariatur corrupti aliquam consequuntur in soluta totam nihil quibusdam eligendi. Beatae itaque corrupti non odit.
+    </div>
+</body>
+</html>
