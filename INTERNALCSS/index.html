@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOX Model and selectors</title>
+    <style>
+           /* child selector */
+           div > p{
+                 color: orangered;
+                 background-color: aquamarine;
+           }
+           /* element selector */
+           div{
+            color: magenta;
+            background-color: gold;
+           }
+           /* universal selector  */
+           *{
+            padding: 0;
+            margin: 0;
+           }
+           /* class selector */
+           .black{
+            border: 25;
+            margin: 13px;
+            padding: 24px;
+            background-color: burlywood;
+           }
+           /* id selector */
+           #green{
+            background-color: khaki;
+           }
+           /* pesudo selector */
+
+    </style>
+</head>
+<body>
+    <div class="green">i am a div 
+        <p>i am paragraph</p>
+    </div>
+    <div class="black" id="green">i am an another div </div>
+</body>
+</html>

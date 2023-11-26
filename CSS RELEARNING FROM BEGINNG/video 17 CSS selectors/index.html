@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS SELECTORS</title>
+    <style>
+        /* element selector */
+div{
+    background-color:red;
+
+}
+/* class selectors */
+.red{
+    background-color: yellow;
+}
+/* id selector */
+ #green{
+    background-color: green;
+ }
+ /* child selector */
+  div > p{
+    background-color: orange;
+    color: whitesmoke;
+  }
+  /* dicendant selector */
+  div p{
+    background-color: brown;
+  }
+  /* universal selectors */
+*{
+    margin:0px;
+    padding:0px;
+}
+/* pseudo selector */
+a:visited{
+    color:yellow;
+}
+a:link{
+    color:green;
+}
+a:active{
+    background-color:gold;
+}
+a:hover{
+    background-color:grey;
+}
+p:first-child{
+    background-color:aqua;
+}
+    </style>
+
+</head>
+<body>
+<div class="red">
+    i am div 
+</div>
+<div>
+    i am div 
+</div>
+<div id="green">
+    i am another div
+</div>
+<div>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos magni placeat doloribus aut accusamus vel inventore impedit, dolor dignissimos libero alias! Rem beatae nisi optio vitae cumque tenetur deleniti dolor numquam facere quia? Molestias quisquam rem eligendi alias veniam excepturi illum architecto repudiandae impedit optio?</p>
+</div>
+
+<div>
+    <a href="WWW.GOOGLE.com"> GO TO GOOGLE</a>
+    <a href="WWW.FACEBOOK.com"> GO TO FACEBOOK</a>
+</div>
+
+
+
+</body>
+</html>
